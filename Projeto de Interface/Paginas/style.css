@@ -1,0 +1,79 @@
+/*Importação de Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@font-face {
+    font-family: "Bungee Spice", sans-serif;
+    src: url(Fontes/BungeeSpice-Regular.ttf);
+}
+/*Primeiros passos do CSS*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+}
+p {
+    text-align: center;
+    margin: 20px auto;
+    
+
+}
+h2 {
+    color: brown;
+}
+/*Configurações do Menu*/
+#bodyindex {
+    background-color: rgb(229, 200, 164);
+    text-align: left;
+    border-width: 10px;
+    margin: 20 auto;
+   
+}
+.menu {
+    list-style: none;
+    border: 2px solid black;
+    float: left;
+    font-family: "Underdog", system-ui;
+    font-size: 10;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 2px solid brown;
+}
+.menu li a {
+    color:chocolate;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li a:hover {
+    background: yellow;
+    color: darkred;
+    box-shadow: 3px 10px 0px blue;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    background-color: black;
+    display: none;
+}
+.menu li:hover ul {
+    display: block;
+}
+.menu li ul li {
+    border: 1px solid brown;
+    display: block;
+    width: 100px;
+}
+#Masculino {
+    color: darkmagenta;
+}
+#primeirotexto {
+    font-family: "Bungee Spice", sans-serif; 
+}
